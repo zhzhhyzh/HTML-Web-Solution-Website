@@ -54,18 +54,21 @@
   font-weight: normal;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Barlow";
   src: url("/fonts/Barlow-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Barlow";
   src: url("/fonts/Barlow-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Barlow";
   src: url("/fonts/Barlow-Medium.ttf") format("truetype");
@@ -107,12 +110,14 @@
   font-weight: 100;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Barlow";
   src: url("/fonts/Barlow-ThinItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
 }
+
 /* roboto */
 @font-face {
   font-family: "Roboto";
@@ -169,18 +174,21 @@
   font-weight: normal;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("/fonts/Roboto-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("/fonts/Roboto-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("/fonts/Roboto-Medium.ttf") format("truetype");
@@ -222,6 +230,7 @@
   font-weight: 100;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("/fonts/Roboto-ThinItalic.ttf") format("truetype");
@@ -238,7 +247,7 @@ html {
 
 .navbar {
   background-color: #ffffff;
-  top:0;
+  top: 0;
   height: 130px;
   display: flex;
   flex-direction: row;
@@ -256,6 +265,7 @@ html {
   padding: 0px 16px;
   height: 80px;
 }
+
 .navbar__items__wrapper {
   /* padding:16px; */
   display: grid;
@@ -274,13 +284,13 @@ html {
 }
 
 .navbar__items__link {
-  border-bottom: 0px solid #000a85  ;
+  border-bottom: 0px solid #000a85;
   color: black;
   /* transition: all 0.6s ease-in-out; */
 }
 
 .navbar__items__link:hover {
-  color: #000a85 ;
+  color: #000a85;
   border-bottom: 1px solid #000a85;
 
 }
@@ -354,4 +364,30 @@ html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   margin-bottom: 0;
+}
+
+.pink_button {
+  background-color: #d53b9d;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+.gray_button {
+  background-color: #3e3d3d;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
 }
