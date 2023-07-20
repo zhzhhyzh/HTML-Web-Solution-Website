@@ -1,0 +1,357 @@
+/* barlow */
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-ExtraBold.ttf") format("truetype");
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: bolder;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-ExtraLight.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-ExtraLightItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+/* roboto */
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-ExtraBold.ttf") format("truetype");
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: bolder;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-ExtraLight.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-ExtraLightItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #ffffff;
+  top:0;
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 100%; */
+  padding: 10px 15px;
+  position: sticky;
+  border-top: solid 1px rgb(162, 162, 162);
+  border-bottom: solid 1px rgb(162, 162, 162);
+  font-family: "Roboto" sans-serif;
+}
+
+.navbar img {
+  padding: 0px 16px;
+  height: 80px;
+}
+.navbar__items__wrapper {
+  /* padding:16px; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 40%;
+  text-align: center;
+}
+
+.navbar__items__wrapper a {
+  padding: 16px 0;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 600;
+}
+
+.navbar__items__link {
+  border-bottom: 0px solid #000a85  ;
+  color: black;
+  /* transition: all 0.6s ease-in-out; */
+}
+
+.navbar__items__link:hover {
+  color: #000a85 ;
+  border-bottom: 1px solid #000a85;
+
+}
+
+.navbar__items__link-active {
+  color: #000a85 !important;
+  border-bottom: 1px solid #000a85;
+}
+
+.assessment__container {
+  background-color: #ffe7ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 10px;
+}
+
+.assessment__title {
+  font-size: 56px;
+  font-family: "Barlow", sans-serif;
+  max-width: 50%;
+  text-align: center;
+  margin: 0;
+}
+
+.assessment__desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  margin: 32px 0;
+}
+
+.assessment__button {
+  color: #ffffff;
+  background-color: #e94076;
+  padding: 20px 32px;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+
+.assessment__button:hover {
+  background-color: white;
+  padding: 20px 32px;
+  border: 2px solid #e94076;
+  color: #e94076;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer__container {
+  padding: 34px 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__socialMedia {
+  font-size: 36px;
+  color: #e94076;
+}
+
+.footer__socialMedia i {
+  margin: 0px 10px;
+  margin-bottom: 20px;
+}
+
+.footer__rights {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-bottom: 0;
+}
