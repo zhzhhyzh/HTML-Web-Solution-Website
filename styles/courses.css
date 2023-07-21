@@ -1,7 +1,11 @@
+
+
 .courses__container {
     padding: 56px 113px;
     display: flex;
     flex-direction: column;
+    font-family: 'Barlow', sans-serif;
+
 }
 
 .courses__title {
