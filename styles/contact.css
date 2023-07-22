@@ -1,0 +1,13 @@
+.contact_container {
+    display: flex;
+    padding: 53.16px 31.896px;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.contact_information{
+    display:flex;
+    flex-direction: column;
+}
+.form_container{
+    display: flex;
+}
