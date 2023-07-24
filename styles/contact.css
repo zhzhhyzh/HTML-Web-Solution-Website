@@ -7,6 +7,7 @@
     font-size: 20px;
     font-weight: bold;
     transition: all 0.5s ease-in-out;
+    margin: 10px 0px;
 }
 
 .submit__button:hover {
@@ -30,40 +31,29 @@
     flex-direction: column;
     flex-grow: 1;
 }
-.space{
+
+.space {
     flex-grow: 1;
 }
+
 .form_container {
     display: flex;
     font-family: 'Barlow', sans-serif;
     flex-grow: 2;
 }
 
-#fname {
-    height: 36px;
-    width: 450px;
-    font-family: 'Barlow', sans-serif;
-
-}
-
-#email {
-    height: 36px;
-    width: 450px;
-    font-family: 'Barlow', sans-serif;
-
-}
-
 #CountryCode {
     height: 36px;
-    width: 215px;
+    width: 210px;
     font-family: 'Barlow', sans-serif;
-
+    /* margin: 0px 5px; */
 }
 
 #phone {
-    height: 36px;
-    width: 215px;
+    height: 35px;
+    width: 210px;
     font-family: 'Barlow', sans-serif;
+    /* margin: 0px 5px; */
 
 }
 
@@ -72,6 +62,9 @@
     width: 450px;
     font-family: 'Barlow', sans-serif;
     padding: 5px 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 .introduction__title {
@@ -88,16 +81,31 @@
     font-size: 24px;
     /* padding: 0px 0px 36px; */
     max-width: 50%;
+    font-family: "Roboto",sans-serif;
 }
 
 .phone_container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
 
 }
 
-.widget-inner{
-    padding:11px;
+.widget-inner {
+    padding: 11px;
 }
 
+.form_form {
+    padding: 5px 10px;
+    height: 36px;
+    width: 450px;
+}
 
+.policy{
+    font-style: italic;
+    font-size: smaller;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}

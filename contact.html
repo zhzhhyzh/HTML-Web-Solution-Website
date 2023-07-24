@@ -15,7 +15,9 @@
 
 <body>
     <div class="navbar">
-        <img src="/images/logo.png" alt="logo" />
+        <a href="./index.html">
+            <img src="/images/logo.png" alt="logo" />
+        </a>
         <div class="navbar__items__wrapper">
             <div class="navbar__items">
                 <a href="./index.html" class="navbar__items__link">Home</a>
@@ -41,12 +43,12 @@
         </div>
         <div class="widget-inner">
             <form class="form_container">
-                <input type="text" id="fname" name="fname" placeholder="First Name">
+                <input type="text" class="form_form" name="fname" placeholder="First Name">
                 <br>
-                <input type="text" id="email" name="email" placeholder="Email">
+                <input type="text" class="form_form" id="email" name="email" placeholder="Email">
                 <br>
                 <div class="phone_container">
-                    <select name="CountryCode" id="CountryCode">
+                    <select name="CountryCode" class="form_form" id="CountryCode">
                         <option value="USA">+1 United States</option>
                         <option value="Australia">+61 Australia</option>
                         <option value="China">+86 China</option>
@@ -55,12 +57,12 @@
                         <option value="Malaysia">+60 Malaysia</option>
                         <option value="Thailand">+66 Thailand</option>
                     </select>
-                    <input type="text" id="phone" name="phone" placeholder="Phone Number">
+                    <input type="text" id="phone" class="form_form" name="phone" placeholder="Phone Number">
                 </div>
-                <input type="text" id="comment" name="comment" placeholder="Comment">
+                <input type="text" id="comment" class="form_form" name="comment" placeholder="Comment">
                 <button class="submit__button">Submit</button>
-                <p>Privacy Policy. No spam and keep your email address safe</p>
             </form>
+            <p class="policy">Privacy Policy. No spam and keep your email address safe</p>
         </div>
 
     </div>
