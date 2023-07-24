@@ -8,12 +8,16 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/contact.css">
-    
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css" />
+
+
 </head>
 
 <body>
     <div class="navbar">
-        <img src="/images/logo.png" alt="logo" />
+        <a href="./index.html">
+            <img src="/images/logo.png" alt="logo" />
+        </a>
         <div class="navbar__items__wrapper">
             <div class="navbar__items">
                 <a href="./index.html" class="navbar__items__link">Home</a>
@@ -25,38 +29,45 @@
         </div>
     </div>
     <div class="contact_container">
-        <div class="contact_infomation">
-            <h2>READY TO GET STARTED?</h2>
-            <p>
-                Questions? Concerns? Just want to say "hi?"
-            </p>
-            <p>
-                Hit me up with a message
-            </p>
-        </div>
-        <form class="form_container">
-            <input type="text" id="fname" name="fname" placeholder="First Name">
-            <br>
-            <input type="text" id="email" name="email" placeholder="Email">
-            <br>
-            <div class="phone_container">
-                <select name="CountryCode" id="CountryCode">
-                    <option value="USA">+1 United States</option>
-                    <option value="Australia">+61 Australia</option>
-                    <option value="China">+86 China</option>
-                    <option value="HongKong">+852 Hong Kong</option>
-                    <option value="Japan">+81 Japan</option>
-                    <option value="Malaysia">+60 Malaysia</option>
-                    <option value="Thailand">+66 Thailand</option>
-                </select>
-                <input type="text" id="phone" name="phone" placeholder="Phone Number">
+        <div class="widget-inner">
+            <div class="text_infomation">
+                <h2 class="introduction__title">READY TO GET STARTED?</h2>
+                <p class="introduction__desc">
+                    Questions? Concerns? Just want to say "hi?"
+                <p class="introduction__desc">
+                    Hit me up with a message!
+                </p>
+
+                </p>
             </div>
-            <input type="text" id="comment" name="comment" placeholder="Comment">
-            <button class="assessment_button">Submit</button>
-            <p>Privacy Policy. No spam and keep your email address safe</p>
-        </form>
         </div>
+        <div class="widget-inner">
+            <form class="form_container">
+                <input type="text" class="form_form" name="fname" placeholder="First Name">
+                <br>
+                <input type="text" class="form_form" id="email" name="email" placeholder="Email">
+                <br>
+                <div class="phone_container">
+                    <select name="CountryCode" class="form_form" id="CountryCode">
+                        <option value="USA">+1 United States</option>
+                        <option value="Australia">+61 Australia</option>
+                        <option value="China">+86 China</option>
+                        <option value="HongKong">+852 Hong Kong</option>
+                        <option value="Japan">+81 Japan</option>
+                        <option value="Malaysia">+60 Malaysia</option>
+                        <option value="Thailand">+66 Thailand</option>
+                    </select>
+                    <input type="text" id="phone" class="form_form" name="phone" placeholder="Phone Number">
+                </div>
+                <input type="text" id="comment" class="form_form" name="comment" placeholder="Comment">
+                <button class="submit__button">Submit</button>
+            </form>
+            <p class="policy">Privacy Policy. No spam and keep your email address safe</p>
+        </div>
+
     </div>
+    </div>
+    <hr>
     <div class="footer__container">
         <div class="footer__socialMedia">
             <i class="fa fa-facebook" aria-hidden="true"></i>

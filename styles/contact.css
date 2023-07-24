@@ -1,13 +1,111 @@
+.submit__button {
+    color: #ffffff;
+    background-color: #e94076;
+    padding: 20px 32px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    margin: 10px 0px;
+}
+
+.submit__button:hover {
+    background-color: white;
+    padding: 20px 32px;
+    border: 2px solid #e94076;
+    color: #e94076;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .contact_container {
     display: flex;
-    padding: 53.16px 31.896px;
-    justify-content: space-between;
+    padding: 55px 32px;
+    justify-content: space-around;
+}
+
+.text_information {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
 }
-.contact_information{
-    display:flex;
-    flex-direction: column;
+
+.space {
+    flex-grow: 1;
 }
-.form_container{
+
+.form_container {
     display: flex;
+    font-family: 'Barlow', sans-serif;
+    flex-grow: 2;
+}
+
+#CountryCode {
+    height: 36px;
+    width: 210px;
+    font-family: 'Barlow', sans-serif;
+    /* margin: 0px 5px; */
+}
+
+#phone {
+    height: 35px;
+    width: 210px;
+    font-family: 'Barlow', sans-serif;
+    /* margin: 0px 5px; */
+
+}
+
+#comment {
+    height: 108px;
+    width: 450px;
+    font-family: 'Barlow', sans-serif;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.introduction__title {
+    font-weight: bolder;
+    font-size: 64px;
+    padding: 0px 0px 16px;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.introduction__desc {
+    /* flex: 3; */
+    color: #464646;
+    font-size: 24px;
+    /* padding: 0px 0px 36px; */
+    max-width: 50%;
+    font-family: "Roboto",sans-serif;
+}
+
+.phone_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+
+}
+
+.widget-inner {
+    padding: 11px;
+}
+
+.form_form {
+    padding: 5px 10px;
+    height: 36px;
+    width: 450px;
+}
+
+.policy{
+    font-style: italic;
+    font-size: smaller;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
 }
