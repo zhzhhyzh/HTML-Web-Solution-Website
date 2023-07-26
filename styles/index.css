@@ -219,7 +219,7 @@
 .services__service__card__title {
     font-size: 32px;
     font-family: 'Barlow', sans-serif;
-
+    margin: 25px 0;
 }
 
 .services__service__card__desc {

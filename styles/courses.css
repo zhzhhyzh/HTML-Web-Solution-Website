@@ -39,7 +39,7 @@
 }
 
 .courses__list__wrapper {
-    padding: 0 34px;
+    padding: 10px 34px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -87,6 +87,7 @@
 
 .courses__list__desc {
     font-size: 16px;
+    line-height: 1.75em;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     margin-top: 20px;
