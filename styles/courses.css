@@ -1,0 +1,128 @@
+.courses__container {
+    padding: 56px 113px;
+    display: flex;
+    flex-direction: column;
+}
+
+.courses__title {
+    font-size: 56px;
+    font-family: 'Barlow', sans-serif;
+    padding: 0 34px;
+    margin: 0px;
+    margin-top: 90px;
+}
+
+.courses__desc1 {
+    padding: 30px 34px;
+
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:start; */
+}
+
+.courses__desc2 {
+    padding: 30px 34px;
+
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:start; */
+}
+
+.courses__list__wrapper {
+    padding: 0 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 171px;
+
+}
+
+.courses__list__number-1,
+.courses__list__number-2,
+.courses__list__number-3,
+.courses__list__number-4,
+.courses__list__number-5 {
+    font-size: 88px;
+    font-family: 'Barlow', sans-serif;
+    /* padding:11px; */
+    padding-right: 70px;
+    min-width: 100px;
+}
+
+.courses__list__number-1 {
+    color: rgba(254, 199, 93, 1);
+}
+
+.courses__list__number-2 {
+    color: rgba(33, 186, 235, 1);
+}
+
+.courses__list__number-3 {
+    color: rgba(233, 64, 118, 1);
+}
+
+.courses__list__number-4 {
+    color: #6542ff;
+}
+
+.courses__list__number-5 {
+    color: #78c33e;
+}
+
+.courses__list__title {
+    font-size: 32px;
+    font-family: 'Barlow', sans-serif;
+    margin: 0px;
+}
+
+.courses__list__desc {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    margin-top: 20px;
+
+    /* padding: 20px; */
+}
+
+.courses__list__text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.introduction__title {
+    font-weight: bolder;
+    font-size: 64px;
+    padding: 0px 0px 16px;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.introduction__desc {
+    /* flex: 3; */
+    color: #464646;
+    font-size: 24px;
+    padding: 0px 0px 36px;
+    max-width: 50%;
+}
+
+.introduction__text {
+    /* flex: 3; */
+    color: #464646;
+    font-size: 20px;
+    /* padding: 0px 0px px; */
+    max-width: 50%;
+}
+
+.courses_introduction_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
