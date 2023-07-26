@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="/styles/main.css" />
   <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-  <script src="/scripts/main.js"></script>
+  <!-- <script src="/scripts/main.js"></script> -->
 
 </head>
 
@@ -50,47 +50,71 @@
     <p>As a professionals web developer and web designer of a web solution studio, my main goals are to achieve client's
       ideals and fulfill their requirement on their website with functionality.</p>
   </div>
-  <div class="services_container tag" >
+  <div class="services_container tag">
     <div class="content">
       <h3>Web Development:</h3>
-      <p>Many people find that group classes offer a sense of camaraderie and motivation. Sometimes they can even
-        provide the extra nudge needed to do one more pushup or one more quad-burning squat. Whether you’re in the mood
-        for a low-key Pilates class, a butt-kicking HIIT workout, or even a mindful and relaxing yoga session, I offer a
-        dynamic range of live and pre-recorded classes.</p>
-      <p>ive classes vary on a month-to-month basis and include beginner, intermediate, and advanced levels in the
-        categories of yoga, Pilates, and HIIT sessions. Single session classes can be purchased individually. A
-        membership to Emma Marvel Virtual Fitness can be purchased monthly or annually and includes full 24/7 on-demand
-        access to all pre-recorded classes, 20% discounts on 6-week package purchases, and 10% discounts on 1-on-1
-        virtual personal training sessions. </p>
+      <p>
+        Our web development courses offer an engaging and supportive learning environment, suitable for beginners and
+        experienced developers alike. With a variety of live and pre-recorded classes, covering web design, coding, and
+        full-stack development, our community encourages collaboration and growth. Join us to unlock your coding
+        potential under the guidance of experienced instructors and supportive peers on a fulfilling web development
+        journey.</p>
+      <p>
+        Our web development courses cater to all levels and offer a variety of live classes each month, covering
+        front-end, back-end, and full-stack development. Choose single sessions for specific topics or get 24/7
+        on-demand access with a monthly or annual membership. Enjoy discounts on package purchases and personalized
+        1-on-1 training sessions as a member. Start your web development journey with us for continuous growth and
+        success.</p>
     </div>
     <img src="images/service1.jpg" alt="">
   </div>
   <div class="services_container tag">
     <div class="content">
       <h3>Web Design:</h3>
-      <p>If you’re looking to up the stakes on your exercise goals, improve your overall physical fitness performance,
-        and tone and sculpt your body, my 1-on-1 virtual training sessions offer the advice and expertise needed to
-        ensure your dreams are met.</p>
+      <p>Our 1-on-1 virtual web design sessions provide personalized expertise to help you elevate your web design
+        skills and achieve your design goals. With expert guidance, you'll enhance your aesthetics, user experience, and
+        master the latest trends and tools, creating stunning and functional websites that leave a lasting impression.
+        Unlock your creative potential and achieve your web design dreams with our dedicated training.</p>
       <p class="li_title"><strong>Here’s how it works:</strong></p>
-    
-      <p>I develop a personalized training plan based on your goals. Typical plans include live 1-on-1 virtual fitness
-        training sessions, dietary recommendations, healthy mindset coaching advice, weekly online check-ins.</p>
+
+      <p>I develop a personalized training plan based on your goals. Typical plans include live 1-on-1 virtual codde
+        teaching sessions, weekly project recommendation, debug mindset and advice, daily online check-ins.</p>
     </div>
     <img src="images/service2.jpg" alt="">
   </div>
 
   <div class="assessment__container">
     <h2 class="assessment__title">
-      Are you ready for a full-body transformation?
+      Are you prepared for a captivating journey of hand-on-keyboard transformation?
     </h2>
     <p class="assessment__desc">
-      Marvel Virtual Fitness … simply virtual, simply marvelous.
+      F4 Digitec Web Solution Company … simply virtual, simply marvelous.
     </p>
-    <button class="assessment__button">
+    <button class="assessment__button" id="assessment__button">
       Free Programming Skill Assessment
     </button>
   </div>
 
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 class="modal__title">Send me my assessment form</h3>
+      <input class="c-checkbox" type="checkbox" id="checkbox">
+      <div class="c-formContainer">
+        <form class="c-form" action="">
+          <input class="c-form__input" placeholder="E-mail" type="email"
+            pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" required>
+          <label class="c-form__buttonLabel" for="checkbox">
+            <button class="c-form__button" type="button">Send</button>
+          </label>
+          <label class="c-form__toggle" for="checkbox" data-title="Notify me"></label>
+        </form>
+      </div>
+    </div>
+
+  </div>
   <div class="footer__container">
     <div class="footer__socialMedia">
       <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -99,9 +123,10 @@
       <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
       <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
       <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-     </div>
+    </div>
     <p class="">© 2023 F4 Digitec All Rights Reserved.</p>
   </div>
+  <script src="./scripts/main.js"></script>
 </body>
 
 </html>
