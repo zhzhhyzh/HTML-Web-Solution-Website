@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+
+body {
+  /* min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: #222;
+    background-image: linear-gradient(45deg, #cde3ff, #f1e8ff);
+    font-size: 0.26rem;
+    font-family: "Space Grotesk", sans-serif;
+    padding: 0.5rem 1rem; */
+}
+.courseDetail {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.courseDetail__content {
+  margin: 0px 10%;
+  padding: 2.5% 5%;
+  border-radius: 10px 10px 0 0;
+  margin-top: 50px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.courseDetail__rating {
+  color: gold;
+}
+
+.courseDetail__video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  /* min-height: 100%; */
+  z-index: -1;
+}
+
+.courseDetail__header {
+  padding: 50px 300px 0px 300px;
+  color: white;
+}
+.courseDetail__title {
+  /* margin: 20px 0px; */
+  font-size: 50px;
+  font-family: "Barlow", sans-serif;
+}
+
+.courseDetail__breadcrumb {
+  /* margin: 10px 0px; */
+  margin-bottom: 8px;
+  font-family: "Roboto", sans-serif;
+}
+
+.courseDetail__desc {
+  margin: 20px 0px;
+  font-weight: 300;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 0.5rem;
+}
+
+.item-wrapper {
+  position: relative;
+  margin-bottom: 0.3rem;
+  border-radius: 0.2rem;
+  box-shadow: 3px 3px 10px #0002;
+  background-color: #fff;
+  transition: all 0.3s;
+  overflow: hidden;
+  z-index: 1;
+  padding:  20px;
+
+}
+.item-wrapper:before {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  right: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: radial-gradient(#fff2b3 50%, #fff0 0);
+  z-index: -1;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+.item-wrapper.active:before {
+  transform: scale(8);
+  filter: blur(8px);
+}
+.item-wrapper.active .item-title {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  /* text-decoration: underline; */
+}
+.item-wrapper i{
+  transition: all 0.5s ease-in-out;
+}
+.item-wrapper.active i {
+  transform: rotate(180deg);
+  
+}
+.item-wrapper.active .item-title:hover {
+  transform: none;
+}
+
+.item-title {
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+  font-size: 32px;
+  font-family: 'Barlow', sans-serif;
+  padding: 0.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.item-title:hover {
+  transform: translateX(1%);
+}
+
+.content-outer {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.content {
+  
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 0.5rem;
+  line-height: 1.7;
+}
+.checked {
+  color: gold;
+}
+
+.unchecked {
+  color: gray;
+}
+
+.courseDetail__rating__wrapper {
+  color: gold;
+  display: flex;
+  flex-direction: row;
+}
+.courseDetail__rating__stars {
+  margin: 0 5px;
+}
+
+.createdBy {
+  margin: 13px 0px 20px 0;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+}
+
+.courseDetail__details {
+  font-weight: 300;
+
+  font-family: "Roboto", sans-serif;
+  gap:10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.lastUpdated {
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+  align-items: center;
+
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+  align-items: center;
+
+}
+
+.language{
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+  align-items: center;
+
+}
+
+.subtitle{
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+  align-items: center;
+}
+
+.duration{
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+  align-items: center;
+}
+
+.courseDetail__whatYouWillLearn__list{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  list-style: none;
+}
+
+.courseDetail__whatYouWillLearn
+/* ,
+.courseDetail__courseContent */
+{
+  border: black solid 0.5px;
+  padding: 30px 30px 20px 15px;
+  margin: 40px 0;
+
+}
+.courseDetail__whatYouWillLearn__list li{
+
+  font-family: "Roboto", sans-serif;
+  padding: 10px 2px;
+  font-weight: 300;  
+  
+}
+.courseDetail__whatYouWillLearn__list li::before{
+
+    content: '✓';
+    padding-right:2px;
+  
+}
+
+.courseDetail__whatYouWillLearn__title,
+.courseDetail__courseContent__title,
+.courseDetail__longDesc__title{
+  font-size: 30px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+  
+}
+
+.courseDetail__longDesc__title{
+  margin-top: 40px;
+}
+
+.courseDetail__longDesc__content{
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-bottom: 15px;
+  line-height: 30px;
+}

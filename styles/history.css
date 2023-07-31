@@ -1,0 +1,20 @@
+.history__container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:50px 0;
+}
+
+.history__title{
+    font-size:64px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.history__container img{
+    height:300px;
+    width: 500px;
+    margin: 50px 0;
+}
+.history__container img:hover{
+  cursor: pointer;
+}

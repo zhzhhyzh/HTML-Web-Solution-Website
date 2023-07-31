@@ -258,10 +258,18 @@ p {
 
 .video__container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px 200px;
-    padding-top:125px;
+    padding-top:80px;
     
+}
+
+.video__title{
+    font-size: 56px;
+    font-family: 'Barlow', sans-serif;
+    padding: 0 34px;
+    margin: 0px;
+    margin-bottom: 50px;
 }
