@@ -76,6 +76,6 @@
 .sm_icon {
   height: 30px;
   width: 30px;
-  background-color: pink;
+  /* background-color: pink; */
   border-radius: 45%;
 }
