@@ -13,7 +13,7 @@ const placeOrder = () =>{
     if(invalid_fields.length == 0){
         show("success", "Product ordered successfully!<br>Please check your email for the updates!<br> We will redirect you back to the homepage page in 5 seconds.", 5000, "light");
     setTimeout(()=>{
-        window.location.href = "/"
+        window.location.href = "./"
 
     },[3000])
 

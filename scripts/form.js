@@ -77,7 +77,7 @@ console.log(loginUsername)
     if(loginUser){
       show("success", "Logged in successfully!", 5000, "light");
       setTimeout(()=>{
-        window.location.href="/order.html"
+        window.location.href="order.html"
 
       },[2000])
     }else{
