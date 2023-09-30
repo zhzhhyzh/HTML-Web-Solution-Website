@@ -1,6 +1,6 @@
 
 const productOnChange = () =>{
-    console.log(document.querySelector("#productSelection"))
+    // console.log(document.querySelector("#productSelection"))
     document.querySelector("#subtotal").innerHTML = `${document.querySelector("#productSelection").value}`
 
     document.querySelector("#productTotal").innerHTML = `${document.querySelector("#productSelection").value}`
@@ -35,7 +35,7 @@ const show = (type, title, destroyAfter, theme) => {
     );
   
     document.body.appendChild(container);
-    console.log(document.body);
+    // console.log(document.body);
     hide(toast, container, destroyAfter);
   
     switch (type) {

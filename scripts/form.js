@@ -60,7 +60,7 @@ const login = () => {
 
   const loginUsername = document.querySelector("#loginUsername").value;
   const loginPwd = document.querySelector("#loginPwd").value;
-console.log(loginUsername)
+// console.log(loginUsername)
   let usersArr = [];
   fetch(
     "https://f4-digitec-default-rtdb.asia-southeast1.firebasedatabase.app/users.json"
@@ -100,7 +100,7 @@ const show = (type, title, destroyAfter, theme) => {
   );
 
   document.body.appendChild(container);
-  console.log(document.body);
+  // console.log(document.body);
   hide(toast, container, destroyAfter);
 
   switch (type) {
