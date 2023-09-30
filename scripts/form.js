@@ -60,7 +60,7 @@ const login = () => {
 
   const loginUsername = document.querySelector("#loginUsername").value;
   const loginPwd = document.querySelector("#loginPwd").value;
-console.log(loginUsername)
+// console.log(loginUsername)
   let usersArr = [];
   fetch(
     "https://f4-digitec-default-rtdb.asia-southeast1.firebasedatabase.app/users.json"
@@ -100,21 +100,20 @@ const show = (type, title, destroyAfter, theme) => {
   );
 
   document.body.appendChild(container);
-  console.log(document.body);
+  // console.log(document.body);
   hide(toast, container, destroyAfter);
 
   switch (type) {
     case "success":
       toast.classList.add("toast__toast__success");
-      toast.innerHTML = `<i class="fa-solid fa-check"></i>${title}`;
+      toast.innerHTML = `<img src="images/checked.png" alt="success" />${title}`;
       break;
     case "error":
       toast.classList.add("toast__toast__error");
-
-      toast.innerHTML = `<i class="fa-solid fa-xmark"></i>${title}`;
+      toast.innerHTML = `<img src="images/remove.png" alt="Fail" />${title}`;
       break;
     case "warn":
-      toast.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i>${title}`;
+      toast.innerHTML = `<img src="images/remove.png" alt="Fail">${title}`;
       break;
     case "loading":
       toast.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i>${title}`;

@@ -1,6 +1,6 @@
 
 const productOnChange = () =>{
-    console.log(document.querySelector("#productSelection"))
+    // console.log(document.querySelector("#productSelection"))
     document.querySelector("#subtotal").innerHTML = `${document.querySelector("#productSelection").value}`
 
     document.querySelector("#productTotal").innerHTML = `${document.querySelector("#productSelection").value}`
@@ -35,21 +35,20 @@ const show = (type, title, destroyAfter, theme) => {
     );
   
     document.body.appendChild(container);
-    console.log(document.body);
+    // console.log(document.body);
     hide(toast, container, destroyAfter);
   
     switch (type) {
       case "success":
         toast.classList.add("toast__toast__success");
-        toast.innerHTML = `<i class="fa-solid fa-check"></i>${title}`;
+        toast.innerHTML = `<img src="images/checked.png" alt="success" />${title}`;
         break;
       case "error":
         toast.classList.add("toast__toast__error");
-  
-        toast.innerHTML = `<i class="fa-solid fa-xmark"></i>${title}`;
+        toast.innerHTML = `<img src="images/remove.png" alt="Fail" />${title}`;
         break;
       case "warn":
-        toast.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i>${title}`;
+        toast.innerHTML = `<img src="images/remove.png" alt="Fail">${title}`;
         break;
       case "loading":
         toast.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i>${title}`;

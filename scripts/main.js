@@ -36,9 +36,9 @@ document.addEventListener("scroll", function() {
 
   for (var i = 0; i < tags.length; i++) {
     var tag = tags[i];
-    console.log( window.innerHeight) 
+    // console.log( window.innerHeight) 
 
-    console.log(i,tag.getBoundingClientRect() )
+    // console.log(i,tag.getBoundingClientRect() )
     if (tag.getBoundingClientRect().top +window.scrollY +300 < pageBottom) {
     tag.classList.add("visible");
     } else {
