@@ -203,6 +203,11 @@ form{
 
   position: absolute;
 }
+.toast__container img {
+  height:15px;
+  width:15px;
+
+}
 
 .toast {
   display: flex;
