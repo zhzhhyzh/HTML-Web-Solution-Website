@@ -29,31 +29,33 @@ const onSubmit = () =>{
    alert("Sent successfully!")
 }
 
-$(document).on("scroll", function() {
-  var pageTop = $(document).scrollTop();
-  var pageBottom = pageTop + $(window).height();
-  var tags = $(".tag");
+document.addEventListener("scroll", function() {
+  var pageTop = window.scrollY;
+  var pageBottom = pageTop + window.innerHeight;
+  var tags = document.getElementsByClassName("tag");
 
   for (var i = 0; i < tags.length; i++) {
     var tag = tags[i];
+    console.log( window.innerHeight) 
 
-    if ($(tag).position().top < pageBottom) {
-      $(tag).addClass("visible");
+    console.log(i,tag.getBoundingClientRect() )
+    if (tag.getBoundingClientRect().top +window.scrollY +300 < pageBottom) {
+    tag.classList.add("visible");
     } else {
       // $(tag).removeClass("visible");
     }
   }
 });
-$(document).ready( function() {
-  var pageTop = $(document).scrollTop();
-  var pageBottom = pageTop + $(window).height();
-  var tags = $(".tag");
+document.addEventListener("DOMContentLoaded", function() {
+  var pageTop = window.scrollY;
+  var pageBottom = pageTop + window.innerHeight;
+  var tags = document.getElementsByClassName("tag");
 
   for (var i = 0; i < tags.length; i++) {
     var tag = tags[i];
 
-    if ($(tag).position().top < pageBottom) {
-      $(tag).addClass("visible");
+    if (tag.getBoundingClientRect().top < pageBottom) {
+      tag.classList.add("visible");
     } else {
       // $(tag).removeClass("visible");
     }

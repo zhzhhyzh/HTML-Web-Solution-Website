@@ -254,7 +254,7 @@ html {
 .navbar {
   background-color: #ffffff;
   top: 0;
-  height: 130px;
+  height: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
